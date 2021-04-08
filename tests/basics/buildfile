@@ -1,3 +1,0 @@
-import libs = patterns%lib{patterns}
-
-exe{driver}: {hxx ixx txx cxx}{**} $libs testscript{**}
